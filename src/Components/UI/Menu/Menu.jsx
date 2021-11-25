@@ -5,13 +5,13 @@ export const Menu =()=>{
         <>
             <div className="All">
                 <div className="logo">
-                    <img src={image} alt="Logo"/><h2>React</h2>
+                    <img src={image} className="image" alt="Logo"/><h2 classsName="title">React</h2>
                 </div>
                 <div className="menu">
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <a href="#" className="element">Home</a>
+                    <a href="#" className="element">Products</a>
+                    <a href="#" className="element">About</a>
+                    <a href="#" className="element">Contact</a>
                 </div>
             </div>
         </>

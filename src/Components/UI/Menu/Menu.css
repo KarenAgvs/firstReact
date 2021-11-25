@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+.all{
+    background-color: #20232a;
+    width: 8rem;
+}
+
+.image{
+    height: 10vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .image {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+.logo{
+    border-bottom: #20232a;
+}
+.title{
+    margin-top: 500%;
+}

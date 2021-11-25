@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import  {Header} from '../src/Components/Layouts/Header/Header.jsx';
+import {Body} from '../src/Components/Layouts/Body/Body.jsx';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <Body/>
   </React.StrictMode>,
   document.getElementById('root')
 );
