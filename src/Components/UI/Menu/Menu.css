@@ -1,23 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
 
-.all{
-    background-color: #20232a;
-    width: 8rem;
+header{
+   display: flex;
+   justify-content: space-around; 
+   background-color: #1f2229;
+   max-width: 1200px;
+   margin: 20px auto;
+   border-radius:8px ;
+   box-sizing: border-box;
 }
-
+.containsImageandh2{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.containsTitle{
+  margin-left: -40%;
+}
+.image{
+  width: 85px;
+  margin-right:15px ;
+  margin-top: 2%;
+}
+.menu{
+  margin-left: -50%;
+  margin-top: 1%;
+}
+h2{
+  font-family: 'Fira Sans', sans-serif;
+  color: #61dafb;
+  font-size: 29px;
+}
+.element{
+  text-decoration: none;
+  padding: 0px 20px;
+  font-family: 'Fira Sans', sans-serif;
+  color:#ffff
+}
+.listElement{
+  list-style: none;
+  display: inline-block;
+}
 .image{
     height: 10vmin;
     pointer-events: none;
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .image {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-.logo{
-    border-bottom: #20232a;
+
+/*Animation*/
+a::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #61dafb;
+  transition: width 3.s;
 }
-.title{
-    margin-top: 500%;
+a:hover::after{
+  width: 100%;
+  transition: width 3.s;
 }
+
+

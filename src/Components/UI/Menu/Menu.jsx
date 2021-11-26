@@ -3,17 +3,25 @@ import image from '../../../Images/logo192.png';
 export const Menu =()=>{
     return(
         <>
-            <div className="All">
-                <div className="logo">
-                    <img src={image} className="image" alt="Logo"/><h2 classsName="title">React</h2>
+            <header className="All">
+                <div className="containsImageandh2">
+                    <div className="image">
+                       <img src={image} className="image" alt="Logo"/>
+                    </div>
+                    <div className="containsTitle">
+                        <h2 classsName="title">React</h2> 
+                    </div>
                 </div>
-                <div className="menu">
-                    <a href="#" className="element">Home</a>
-                    <a href="#" className="element">Products</a>
-                    <a href="#" className="element">About</a>
-                    <a href="#" className="element">Contact</a>
-                </div>
-            </div>
+                <nav className="menu">
+                    <ul className="links-menu">
+                        <li className="listElement"><a href="#" className="element">Home</a></li>
+                        <li className="listElement"><a href="#" className="element">Products</a></li>
+                        <li className="listElement"><a href="#" className="element">About</a></li>
+                        <li className="listElement"><a href="#" className="element">Contact</a></li> 
+                        <div class="animation start-home"></div>
+                    </ul>
+                </nav>
+            </header>
         </>
     )
 }
