@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import  {Header} from '../src/Components/Layouts/Header/Header.jsx';
 import {Body} from '../src/Components/Layouts/Body/Body.jsx';
+import {Footer} from '../src/Components/Layouts/Footer/Footer.jsx';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Body/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

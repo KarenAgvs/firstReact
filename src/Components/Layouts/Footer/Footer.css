@@ -1,0 +1,15 @@
+.footer{
+    background-color: #1f2229;
+    text-align: center;
+    color: #fff;
+    height: 5rem;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius:8px ;
+    box-sizing: border-box;
+}
+
+p{
+    padding-top: 1.5rem;
+}
+
